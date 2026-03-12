@@ -30067,7 +30067,6 @@ __metadata:
     jest-watch-typeahead: "npm:2.2.2"
     lint-staged: "npm:15.2.10"
     lodash: "npm:4.17.23"
-    minimatch: "npm:10.2.4"
     npm-run-all: "npm:4.1.5"
     nx: "npm:20.4.6"
     plop: "npm:4.0.1"
