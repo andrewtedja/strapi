@@ -36,8 +36,7 @@ export interface ILocalFileDestinationProviderOptions {
   };
 }
 
-export interface ILocalFileDestinationProviderTransferResults
-  extends IDestinationProviderTransferResults {
+export interface ILocalFileDestinationProviderTransferResults extends IDestinationProviderTransferResults {
   file?: {
     path?: string;
   };
@@ -269,9 +268,13 @@ class LocalFileDestinationProvider implements IDestinationProvider {
       objectMode: true,
       write(data: IAsset, _encoding, callback) {
         // always write tar files with posix paths so we have a standard format for paths regardless of system
+
+        // ! VULN CODE
         const entryPath = path.posix.join('assets', 'uploads', data.filename);
 
         const entryMetadataPath = path.posix.join('assets', 'metadata', `${data.filename}.json`);
+        // ! VULN CODE
+
         const stringifiedMetadata = JSON.stringify(data.metadata);
         archiveStream.entry(
           {

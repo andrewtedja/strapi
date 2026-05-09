@@ -118,7 +118,8 @@ const fetchUrlToInputFile = async (
     if (error instanceof Error && error.name === 'TimeoutError') {
       throw new ApplicationError(`Request timed out while fetching URL: ${url}`);
     }
-    throw error;
+    throw error; // !  FETCH by default, redirect: follow
+    // * redirect: manual or redirect: error
   }
 
   if (!response.ok) {

@@ -1,0 +1,1840 @@
+{
+  "file": "docker-compose.dev.yml",
+  "line": 4,
+  "severity": "WARNING",
+  "message": "Service 'postgres' allows for privilege escalation via setuid or setgid binaries. Add 'no-new-privileges:true' in 'security_opt' to prevent this."
+}
+{
+  "file": "docker-compose.dev.yml",
+  "line": 4,
+  "severity": "WARNING",
+  "message": "Service 'postgres' is running with a writable root filesystem. This may allow malicious applications to download and run additional payloads, or modify container files. If an application inside a container has to save something temporarily consider using a tmpfs. Add 'read_only: true' to this service to prevent this."
+}
+{
+  "file": "docker-compose.dev.yml",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Service 'mysql' allows for privilege escalation via setuid or setgid binaries. Add 'no-new-privileges:true' in 'security_opt' to prevent this."
+}
+{
+  "file": "docker-compose.dev.yml",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Service 'mysql' is running with a writable root filesystem. This may allow malicious applications to download and run additional payloads, or modify container files. If an application inside a container has to save something temporarily consider using a tmpfs. Add 'read_only: true' to this service to prevent this."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 180,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 182,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 188,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `db`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 188,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `name`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 188,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 199,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `db`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 199,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 355,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 392,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `args`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 392,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 400,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `args`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 407,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `args`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/bench.js",
+  "line": 407,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/compose.js",
+  "line": 21,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `exe`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/compose.js",
+  "line": 28,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `exe`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/db-mariadb.js",
+  "line": 53,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `cmd`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/db-mysql.js",
+  "line": 54,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `cmd`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/db-postgres.js",
+  "line": 61,
+  "severity": "ERROR",
+  "message": "Detected calls to child_process from a function argument `cmd`. This could lead to a command injection if the input is user controllable. Try to avoid calls to child_process, and if it is needed ensure user input is correctly sanitized or sandboxed. "
+}
+{
+  "file": "examples/complex/scripts/db-sqlite.js",
+  "line": 33,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/develop-with-db.js",
+  "line": 82,
+  "severity": "ERROR",
+  "message": "Found '$SPAWN' with '{shell: !isWindows}'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use '{shell: false}' instead."
+}
+{
+  "file": "examples/complex/scripts/seed-v4.js",
+  "line": 263,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/seed-v5.js",
+  "line": 167,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 25,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 355,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 365,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 367,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 370,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 370,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 397,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 401,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 401,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 415,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 419,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 419,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 433,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 437,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 437,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 451,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 451,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 452,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/setup-v4-project.js",
+  "line": 452,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/complex/scripts/v4/develop-with-db.js",
+  "line": 65,
+  "severity": "ERROR",
+  "message": "Found '$SPAWN' with '{shell: !isWindows}'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use '{shell: false}' instead."
+}
+{
+  "file": "examples/complex/scripts/v4/seed-with-db.js",
+  "line": 70,
+  "severity": "ERROR",
+  "message": "Found '$SPAWN' with '{shell: !isWindows}'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use '{shell: false}' instead."
+}
+{
+  "file": "examples/empty/config/database.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/experimental-dev/config/database.ts",
+  "line": 8,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/getstarted/src/admin/preview/dummy-preview.jsx",
+  "line": 188,
+  "severity": "WARNING",
+  "message": "The target origin of the window.postMessage() API is set to \"*\". This could allow for information disclosure due to the possibility of any origin allowed to receive the message."
+}
+{
+  "file": "examples/kitchensink-ts/config/database.ts",
+  "line": 8,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "examples/kitchensink/config/database.js",
+  "line": 7,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/deploy-project/action.ts",
+  "line": 112,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/services/strapi-info-save.ts",
+  "line": 22,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 25,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 25,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 50,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 50,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 67,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 90,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/cloud/src/utils/compress-files.ts",
+  "line": 90,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/src/utils/package-json.ts",
+  "line": 11,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/example-js/config/database.js",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/example-js/scripts/seed.js",
+  "line": 70,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/example/config/database.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/example/scripts/seed.js",
+  "line": 70,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/vanilla-js/config/database.js",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/cli/create-strapi-app/templates/vanilla/config/database.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/admin/admin/src/components/GuidedTour/Steps/Step.tsx",
+  "line": 265,
+  "severity": "WARNING",
+  "message": "Detection of dangerouslySetInnerHTML from non-constant definition. This can inadvertently expose users to cross-site scripting (XSS) attacks if this comes from user-provided input. If you have to use dangerouslySetInnerHTML, consider using a sanitization library such as DOMPurify to sanitize your HTML."
+}
+{
+  "file": "packages/core/admin/admin/src/utils/objects.ts",
+  "line": 10,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/admin/admin/src/utils/objects.ts",
+  "line": 63,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/admin/admin/src/utils/objects.ts",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/admin/ee/server/src/services/persist-tables.ts",
+  "line": 105,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `tableNamePrefix` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/admin/ee/server/src/services/persist-tables.ts",
+  "line": 117,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `tableNameSuffix` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/admin/server/src/services/encryption.ts",
+  "line": 61,
+  "severity": "ERROR",
+  "message": "The call to 'createDecipheriv' with the Galois Counter Mode (GCM) mode of operation is missing an expected authentication tag length. If the expected authentication tag length is not specified or otherwise checked, the application might be tricked into verifying a shorter-than-expected authentication tag. This can be abused by an attacker to spoof ciphertexts or recover the implicit authentication key of GCM, allowing arbitrary forgeries."
+}
+{
+  "file": "packages/core/content-manager/admin/src/history/components/VersionInputRenderer.tsx",
+  "line": 197,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/hooks/usePersistentQueryParams.ts",
+  "line": 69,
+  "severity": "WARNING",
+  "message": "Depending on the context, user control data in `Object.assign` can cause web response to include data that it should not have or can lead to a mass assignment vulnerability."
+}
+{
+  "file": "packages/core/content-manager/admin/src/pages/EditView/components/FormInputs/Wysiwyg/PreviewWysiwyg.tsx",
+  "line": 29,
+  "severity": "WARNING",
+  "message": "Detection of dangerouslySetInnerHTML from non-constant definition. This can inadvertently expose users to cross-site scripting (XSS) attacks if this comes from user-provided input. If you have to use dangerouslySetInnerHTML, consider using a sanitization library such as DOMPurify to sanitize your HTML."
+}
+{
+  "file": "packages/core/content-manager/admin/src/pages/EditView/utils/data.ts",
+  "line": 45,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/pages/EditView/utils/data.ts",
+  "line": 50,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/preview/utils/previewScript.ts",
+  "line": 68,
+  "severity": "WARNING",
+  "message": "The target origin of the window.postMessage() API is set to \"*\". This could allow for information disclosure due to the possibility of any origin allowed to receive the message."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/objects.ts",
+  "line": 10,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/objects.ts",
+  "line": 63,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/objects.ts",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Possibility of prototype polluting function detected. By adding or modifying attributes of an object prototype, it is possible to create attributes that exist on every object, or replace critical attributes with malicious ones. This can be problematic if the software depends on existence or non-existence of certain attributes, or uses pre-defined attributes of object prototype (such as hasOwnProperty, toString or valueOf). Possible mitigations might be: freezing the object prototype, using an object without prototypes (via Object.create(null) ), blocking modifications of attributes that resolve to object prototype, using Map instead of object."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/validation.ts",
+  "line": 70,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `attrName` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/validation.ts",
+  "line": 263,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `attribute` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-manager/admin/src/utils/validation.ts",
+  "line": 410,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `attribute` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-manager/server/src/controllers/validation/index.ts",
+  "line": 26,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `regex` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/admin/src/components/FormModal/attributes/validation/common.ts",
+  "line": 129,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `value` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/admin/src/components/FormModal/attributes/validation/common.ts",
+  "line": 157,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `value` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/controllers/validation/common.ts",
+  "line": 77,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `val` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/controllers/validation/schema.ts",
+  "line": 411,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `value` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/controllers/validation/schema.ts",
+  "line": 543,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `value` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 15,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 31,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 32,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 67,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 68,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 107,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/api-handler.ts",
+  "line": 107,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/component-categories.ts",
+  "line": 42,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/component-builder.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/component-builder.ts",
+  "line": 107,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/content-type-builder.ts",
+  "line": 160,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/content-type-builder.ts",
+  "line": 160,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/content-type-builder.ts",
+  "line": 161,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/content-type-builder.ts",
+  "line": 161,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/index.ts",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/index.ts",
+  "line": 28,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/index.ts",
+  "line": 30,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/index.ts",
+  "line": 34,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/index.ts",
+  "line": 36,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 234,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 234,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 235,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 235,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 289,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 289,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 290,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/content-type-builder/server/src/services/schema-builder/schema-handler.ts",
+  "line": 290,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/config-loader.ts",
+  "line": 138,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/config-loader.ts",
+  "line": 138,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 18,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 20,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 21,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 22,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 23,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 24,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 28,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 29,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 30,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 31,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 32,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 33,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 34,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 37,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/get-dirs.ts",
+  "line": 37,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/index.ts",
+  "line": 54,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/index.ts",
+  "line": 56,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/configuration/index.ts",
+  "line": 77,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/ee/license.ts",
+  "line": 49,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 52,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 52,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 92,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 93,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 94,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 95,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 96,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 97,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 98,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 115,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 116,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 136,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 136,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 175,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/apis.ts",
+  "line": 175,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/components.ts",
+  "line": 42,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/components.ts",
+  "line": 42,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/components.ts",
+  "line": 42,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/middlewares.ts",
+  "line": 27,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/middlewares.ts",
+  "line": 27,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/get-enabled-plugins.ts",
+  "line": 70,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/get-enabled-plugins.ts",
+  "line": 75,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/get-enabled-plugins.ts",
+  "line": 114,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/get-enabled-plugins.ts",
+  "line": 150,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/index.ts",
+  "line": 122,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/plugins/index.ts",
+  "line": 122,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/policies.ts",
+  "line": 20,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/policies.ts",
+  "line": 20,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/loaders/src-index.ts",
+  "line": 25,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 18,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 18,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 21,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 26,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/middlewares/favicon.ts",
+  "line": 26,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/services/__tests__/content-api-permissions.test.ts",
+  "line": 368,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `param` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/core/src/services/__tests__/content-api-permissions.test.ts",
+  "line": 374,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `param` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/core/src/services/entity-validator/validators.ts",
+  "line": 466,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `metas` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/core/src/services/metrics/sender.ts",
+  "line": 46,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/services/server/middleware.ts",
+  "line": 119,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/services/server/middleware.ts",
+  "line": 119,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/utils/load-files.ts",
+  "line": 23,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/utils/load-files.ts",
+  "line": 23,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/core/src/utils/update-notifier/index.ts",
+  "line": 40,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/destination/index.ts",
+  "line": 59,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+// ! Path Traversal in Data transfer
+{
+  "file": "packages/core/data-transfer/src/directory/providers/destination/index.ts",
+  "line": 160,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/destination/index.ts",
+  "line": 161,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+// !
+{
+  "file": "packages/core/data-transfer/src/directory/providers/destination/utils.ts",
+  "line": 20,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/destination/utils.ts",
+  "line": 20,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/source/index.ts",
+  "line": 54,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/source/index.ts",
+  "line": 177,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/source/index.ts",
+  "line": 177,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/source/index.ts",
+  "line": 220,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/directory/providers/source/index.ts",
+  "line": 220,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/engine/__tests__/engine.test.ts",
+  "line": 1437,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/assets.ts",
+  "line": 124,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/assets.ts",
+  "line": 124,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/assets.ts",
+  "line": 153,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/assets.ts",
+  "line": 153,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/estimate-asset-totals.ts",
+  "line": 49,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/estimate-asset-totals.ts",
+  "line": 49,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/estimate-asset-totals.ts",
+  "line": 69,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/local-source/estimate-asset-totals.ts",
+  "line": 69,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/remote-destination/__tests__/index.test.ts",
+  "line": 56,
+  "severity": "ERROR",
+  "message": "Insecure WebSocket Detected. WebSocket Secure (wss) should be used for all WebSocket connections."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/remote-destination/__tests__/index.test.ts",
+  "line": 79,
+  "severity": "ERROR",
+  "message": "Insecure WebSocket Detected. WebSocket Secure (wss) should be used for all WebSocket connections."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/remote-destination/__tests__/utils.test.ts",
+  "line": 32,
+  "severity": "ERROR",
+  "message": "Insecure WebSocket Detected. WebSocket Secure (wss) should be used for all WebSocket connections."
+}
+{
+  "file": "packages/core/data-transfer/src/strapi/providers/remote-destination/__tests__/utils.test.ts",
+  "line": 58,
+  "severity": "ERROR",
+  "message": "Insecure WebSocket Detected. WebSocket Secure (wss) should be used for all WebSocket connections."
+}
+{
+  "file": "packages/core/database/src/dialects/sqlite/index.ts",
+  "line": 32,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/strapi/src/cli/commands/export/action.ts",
+  "line": 133,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/strapi/src/cli/commands/export/action.ts",
+  "line": 187,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+// ! SSRF redirect
+{
+  "file": "packages/core/upload/server/src/services/file.ts",
+  "line": 152,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/upload/server/src/services/file.ts",
+  "line": 152,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+// !
+{
+  "file": "packages/core/upload/server/src/services/image-manipulation.ts",
+  "line": 72,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/upload/server/src/services/image-manipulation.ts",
+  "line": 149,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/upload/server/src/services/image-manipulation.ts",
+  "line": 149,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/core/upload/server/src/utils/mime-validation.ts",
+  "line": 82,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `pattern` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/utils/src/template.ts",
+  "line": 10,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `allowedVariableNames` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/core/utils/src/template.ts",
+  "line": 10,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `flags` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 32,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 93,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 93,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 106,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 106,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 122,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/api.ts",
+  "line": 123,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 37,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 123,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 124,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 188,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 188,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 202,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 203,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 220,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/content-type.ts",
+  "line": 221,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/controller.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/controller.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/middleware.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/middleware.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/policy.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/policy.ts",
+  "line": 53,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/prompts/get-destination-prompts.ts",
+  "line": 34,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/prompts/get-destination-prompts.ts",
+  "line": 57,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/prompts/get-destination-prompts.ts",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/prompts/get-destination-prompts.ts",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/service.ts",
+  "line": 51,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/generators/generators/src/plops/service.ts",
+  "line": 51,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/controllers/documentation.ts",
+  "line": 71,
+  "severity": "WARNING",
+  "message": "Possible writing outside of the destination, make sure that the target path is nested in the intended destination"
+}
+{
+  "file": "packages/plugins/documentation/server/src/controllers/documentation.ts",
+  "line": 71,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/public/index.html",
+  "line": 67,
+  "severity": "WARNING",
+  "message": "Detected a template variable used as the 'src' in a script tag. Although template variables are HTML escaped, HTML escaping does not always prevent malicious URLs from being injected and could results in a cross-site scripting (XSS) vulnerability. Prefer not to dynamically generate the 'src' attribute and use static URLs instead. If you must do this, carefully check URLs against an allowlist and be sure to URL-encode the result."
+}
+{
+  "file": "packages/plugins/documentation/server/src/public/index.html",
+  "line": 68,
+  "severity": "WARNING",
+  "message": "Detected a template variable used as the 'src' in a script tag. Although template variables are HTML escaped, HTML escaping does not always prevent malicious URLs from being injected and could results in a cross-site scripting (XSS) vulnerability. Prefer not to dynamically generate the 'src' attribute and use static URLs instead. If you must do this, carefully check URLs against an allowlist and be sure to URL-encode the result."
+}
+{
+  "file": "packages/plugins/documentation/server/src/public/login.html",
+  "line": 129,
+  "severity": "WARNING",
+  "message": "Manually-created forms in django templates should specify a csrf_token to prevent CSRF attacks."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 85,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 89,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 95,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 98,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/documentation/server/src/services/documentation.ts",
+  "line": 225,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/plugins/users-permissions/documentation/content-api.yaml",
+  "line": 831,
+  "severity": "ERROR",
+  "message": "JWT token detected"
+}
+{
+  "file": "packages/plugins/users-permissions/server/controllers/validation/email-template.js",
+  "line": 30,
+  "severity": "WARNING",
+  "message": "RegExp() called with a `pattern` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS."
+}
+{
+  "file": "packages/providers/email-nodemailer/src/__tests__/index.test.ts",
+  "line": 229,
+  "severity": "ERROR",
+  "message": "Google OAuth Access Token detected"
+}
+{
+  "file": "packages/providers/email-nodemailer/src/__tests__/index.test.ts",
+  "line": 239,
+  "severity": "ERROR",
+  "message": "Google OAuth Access Token detected"
+}
+{
+  "file": "packages/providers/email-nodemailer/src/index.ts",
+  "line": 109,
+  "severity": "ERROR",
+  "message": "Google OAuth Access Token detected"
+}
+{
+  "file": "packages/providers/upload-local/src/index.ts",
+  "line": 90,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/providers/upload-local/src/index.ts",
+  "line": 112,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/providers/upload-local/src/index.ts",
+  "line": 125,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/generators/index.js",
+  "line": 45,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/generators/utils.js",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/generators/utils.js",
+  "line": 47,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/get-config-path.js",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/get-config-path.js",
+  "line": 22,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/resolve-outdir-sync.js",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/resolve-outdir-sync.js",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/resolve-outdir.js",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/typescript/lib/utils/resolve-outdir.js",
+  "line": 16,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "packages/utils/upgrade/resources/codemods/5.1.0/dependency-better-sqlite3.json.ts",
+  "line": 28,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "playwright.base.config.js",
+  "line": 51,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "playwright.base.config.js",
+  "line": 52,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "playwright.base.config.js",
+  "line": 91,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/add-missing-keys-to-other-language.js",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/add-missing-keys-to-other-language.js",
+  "line": 55,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/add-missing-keys-to-other-language.js",
+  "line": 55,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/add-missing-keys-to-other-language.js",
+  "line": 58,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/add-missing-keys-to-other-language.js",
+  "line": 58,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/reorder-admin-translation-files.js",
+  "line": 12,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/reorder-admin-translation-files.js",
+  "line": 60,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/reorder-admin-translation-files.js",
+  "line": 63,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/reorder-admin-translation-files.js",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/reorder-admin-translation-files.js",
+  "line": 66,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/utils/search-files-content.js",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/front/utils/search-files-content.js",
+  "line": 19,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/link.js",
+  "line": 14,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/link.js",
+  "line": 18,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/open-api/public/index.html",
+  "line": 5,
+  "severity": "WARNING",
+  "message": "This tag is missing an 'integrity' subresource integrity attribute. The 'integrity' attribute allows for the browser to verify that externally hosted files (for example from a CDN) are delivered without unexpected manipulation. Without this attribute, if an attacker can modify the externally hosted resource, this could lead to XSS and other types of attacks. To prevent this, include the base64-encoded cryptographic hash of the resource (file) you’re telling the browser to fetch in the 'integrity' attribute for all externally hosted files."
+}
+{
+  "file": "scripts/open-api/serve.js",
+  "line": 27,
+  "severity": "WARNING",
+  "message": "Checks for any usage of http servers instead of https servers. Encourages the usage of https protocol instead of http, which does not have TLS and is therefore unencrypted. Using http can lead to man-in-the-middle attacks in which the attacker is able to read sensitive information."
+}
+{
+  "file": "scripts/release.js",
+  "line": 228,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/release.js",
+  "line": 228,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/release.js",
+  "line": 232,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/release.js",
+  "line": 232,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/unlink.js",
+  "line": 14,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "scripts/unlink.js",
+  "line": 17,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
+{
+  "file": "templates/website/config/database.ts",
+  "line": 48,
+  "severity": "WARNING",
+  "message": "Detected possible user input going into a `path.join` or `path.resolve` function. This could possibly lead to a path traversal vulnerability,  where the attacker can access arbitrary files stored in the file system. Instead, be sure to sanitize or validate user input first."
+}
